@@ -17,6 +17,10 @@ app.get('/download/:filename', (req, res) => {
  });
 });
 
+app.get('/', (req, res) => {
+
+})
+
 
 const PORT = process.env.PORT || 5000
 app.listen(PORT, () => { console.log(`app is listening on port ${PORT}`) });
